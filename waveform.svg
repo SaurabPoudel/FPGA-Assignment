@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 580" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .grid { stroke: #334155; stroke-width: 1; }
+      .grid-dash { stroke: #1e293b; stroke-width: 1; stroke-dasharray: 4,4; }
+      .title { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 20px; fill: #f8fafc; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 13px; fill: #94a3b8; }
+      .sig-name { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: bold; font-size: 13px; }
+      .sig-type { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 10px; fill: #64748b; }
+      .wave-text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 10px; fill: #ffffff; text-anchor: middle; font-weight: bold; }
+      .axis-text { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #64748b; text-anchor: middle; }
+      .op-text { font-family: system-ui, -apple-system, sans-serif; font-weight: 700; font-size: 10px; fill: #94a3b8; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="1200" height="580" class="bg" />
+  <text x="30" y="45" class="title">8-bit ALU (alu8) Simulation Waveforms</text>
+  <text x="30" y="70" class="subtitle">Lab Assignment | Student: Saurab Poudel (Roll No: 079BEI036)</text>
+  <line x1="150.0" y1="100" x2="150.0" y2="520" class="grid" stroke-width="1.5" />
+  <text x="150.0" y="540" class="axis-text">0 ns</text>
+  <line x1="195.0" y1="100" x2="195.0" y2="520" class="grid-dash" />
+  <line x1="240.0" y1="100" x2="240.0" y2="520" class="grid-dash" />
+  <text x="240.0" y="540" class="axis-text">20 ns</text>
+  <line x1="285.0" y1="100" x2="285.0" y2="520" class="grid-dash" />
+  <line x1="330.0" y1="100" x2="330.0" y2="520" class="grid-dash" />
+  <text x="330.0" y="540" class="axis-text">40 ns</text>
+  <line x1="375.0" y1="100" x2="375.0" y2="520" class="grid-dash" />
+  <line x1="420.0" y1="100" x2="420.0" y2="520" class="grid-dash" />
+  <text x="420.0" y="540" class="axis-text">60 ns</text>
+  <line x1="465.0" y1="100" x2="465.0" y2="520" class="grid-dash" />
+  <line x1="510.0" y1="100" x2="510.0" y2="520" class="grid-dash" />
+  <text x="510.0" y="540" class="axis-text">80 ns</text>
+  <line x1="555.0" y1="100" x2="555.0" y2="520" class="grid-dash" />
+  <line x1="600.0" y1="100" x2="600.0" y2="520" class="grid-dash" />
+  <text x="600.0" y="540" class="axis-text">100 ns</text>
+  <line x1="645.0" y1="100" x2="645.0" y2="520" class="grid-dash" />
+  <line x1="690.0" y1="100" x2="690.0" y2="520" class="grid-dash" />
+  <text x="690.0" y="540" class="axis-text">120 ns</text>
+  <line x1="735.0" y1="100" x2="735.0" y2="520" class="grid-dash" />
+  <line x1="780.0" y1="100" x2="780.0" y2="520" class="grid-dash" />
+  <text x="780.0" y="540" class="axis-text">140 ns</text>
+  <line x1="825.0" y1="100" x2="825.0" y2="520" class="grid-dash" />
+  <line x1="870.0" y1="100" x2="870.0" y2="520" class="grid-dash" />
+  <text x="870.0" y="540" class="axis-text">160 ns</text>
+  <line x1="915.0" y1="100" x2="915.0" y2="520" class="grid-dash" />
+  <line x1="960.0" y1="100" x2="960.0" y2="520" class="grid-dash" />
+  <text x="960.0" y="540" class="axis-text">180 ns</text>
+  <line x1="1005.0" y1="100" x2="1005.0" y2="520" class="grid-dash" />
+  <line x1="1050.0" y1="100" x2="1050.0" y2="520" class="grid-dash" />
+  <text x="1050.0" y="540" class="axis-text">200 ns</text>
+  <line x1="1095.0" y1="100" x2="1095.0" y2="520" class="grid-dash" />
+  <line x1="1140.0" y1="100" x2="1140.0" y2="520" class="grid" stroke-width="1.5" />
+  <text x="1140.0" y="540" class="axis-text">220 ns</text>
+  <text x="172.5" y="90" class="op-text">ADD</text>
+  <text x="217.5" y="90" class="op-text">SUB</text>
+  <text x="262.5" y="90" class="op-text">AND</text>
+  <text x="307.5" y="90" class="op-text">OR</text>
+  <text x="352.5" y="90" class="op-text">XOR</text>
+  <text x="397.5" y="90" class="op-text">NOR</text>
+  <text x="442.5" y="90" class="op-text">NAND</text>
+  <text x="487.5" y="90" class="op-text">XNOR</text>
+  <text x="532.5" y="90" class="op-text">NOT</text>
+  <text x="577.5" y="90" class="op-text">SLL</text>
+  <text x="622.5" y="90" class="op-text">SRL</text>
+  <text x="667.5" y="90" class="op-text">ROL</text>
+  <text x="712.5" y="90" class="op-text">ROR</text>
+  <text x="757.5" y="90" class="op-text">MUL</text>
+  <text x="802.5" y="90" class="op-text">GT</text>
+  <text x="847.5" y="90" class="op-text">EQ</text>
+  <text x="892.5" y="90" class="op-text">ADD</text>
+  <text x="937.5" y="90" class="op-text">SUB</text>
+  <text x="982.5" y="90" class="op-text">OR(Z)</text>
+  <text x="1027.5" y="90" class="op-text">ADD(O)</text>
+  <text x="1072.5" y="90" class="op-text">SUB(O)</text>
+  <text x="1117.5" y="90" class="op-text">EQ(1)</text>
+  <line x1="150" y1="130" x2="1140.0" y2="130" stroke="#1e293b" stroke-width="1" />
+  <line x1="150" y1="190" x2="1140.0" y2="190" stroke="#1e293b" stroke-width="1" />
+  <line x1="150" y1="250" x2="1140.0" y2="250" stroke="#1e293b" stroke-width="1" />
+  <line x1="150" y1="310" x2="1140.0" y2="310" stroke="#1e293b" stroke-width="1" />
+  <line x1="150" y1="390" x2="1140.0" y2="390" stroke="#1e293b" stroke-width="1" />
+  <line x1="150" y1="450" x2="1140.0" y2="450" stroke="#1e293b" stroke-width="1" />
+  <line x1="150" y1="510" x2="1140.0" y2="510" stroke="#1e293b" stroke-width="1" />
+  <text x="30" y="134" fill="#c084fc" class="sig-name">sel</text>
+  <text x="95" y="134" class="sig-type">wire [3:0]</text>
+  <text x="30" y="194" fill="#38bdf8" class="sig-name">A</text>
+  <text x="95" y="194" class="sig-type">wire [7:0]</text>
+  <text x="30" y="254" fill="#f472b6" class="sig-name">B</text>
+  <text x="95" y="254" class="sig-type">wire [7:0]</text>
+  <text x="30" y="314" fill="#34d399" class="sig-name">Result</text>
+  <text x="95" y="314" class="sig-type">wire [7:0]</text>
+  <text x="30" y="394" fill="#fbbf24" class="sig-name">Cout</text>
+  <text x="95" y="394" class="sig-type">wire</text>
+  <text x="30" y="454" fill="#f87171" class="sig-name">Zero</text>
+  <text x="95" y="454" class="sig-type">wire</text>
+  <text x="30" y="514" fill="#fb7185" class="sig-name">Overflow</text>
+  <text x="95" y="514" class="sig-type">wire</text>
+  <path d="M 150.0 118 L 146.0 118 L 150.0 130 L 146.0 142 L 150.0 142 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <path d="M 150.0 118 L 191.0 118 L 195.0 130 L 191.0 142 L 150.0 142 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="172.5" y="134" class="wave-text">0</text>
+  <path d="M 199.0 118 L 236.0 118 L 240.0 130 L 236.0 142 L 199.0 142 L 195.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="217.5" y="134" class="wave-text">1</text>
+  <path d="M 244.0 118 L 281.0 118 L 285.0 130 L 281.0 142 L 244.0 142 L 240.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="262.5" y="134" class="wave-text">2</text>
+  <path d="M 289.0 118 L 326.0 118 L 330.0 130 L 326.0 142 L 289.0 142 L 285.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="307.5" y="134" class="wave-text">3</text>
+  <path d="M 334.0 118 L 371.0 118 L 375.0 130 L 371.0 142 L 334.0 142 L 330.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="352.5" y="134" class="wave-text">4</text>
+  <path d="M 379.0 118 L 416.0 118 L 420.0 130 L 416.0 142 L 379.0 142 L 375.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="397.5" y="134" class="wave-text">5</text>
+  <path d="M 424.0 118 L 461.0 118 L 465.0 130 L 461.0 142 L 424.0 142 L 420.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="442.5" y="134" class="wave-text">6</text>
+  <path d="M 469.0 118 L 506.0 118 L 510.0 130 L 506.0 142 L 469.0 142 L 465.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="487.5" y="134" class="wave-text">7</text>
+  <path d="M 514.0 118 L 551.0 118 L 555.0 130 L 551.0 142 L 514.0 142 L 510.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="532.5" y="134" class="wave-text">8</text>
+  <path d="M 559.0 118 L 596.0 118 L 600.0 130 L 596.0 142 L 559.0 142 L 555.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="577.5" y="134" class="wave-text">9</text>
+  <path d="M 604.0 118 L 641.0 118 L 645.0 130 L 641.0 142 L 604.0 142 L 600.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="622.5" y="134" class="wave-text">A</text>
+  <path d="M 649.0 118 L 686.0 118 L 690.0 130 L 686.0 142 L 649.0 142 L 645.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="667.5" y="134" class="wave-text">B</text>
+  <path d="M 694.0 118 L 731.0 118 L 735.0 130 L 731.0 142 L 694.0 142 L 690.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="712.5" y="134" class="wave-text">C</text>
+  <path d="M 739.0 118 L 776.0 118 L 780.0 130 L 776.0 142 L 739.0 142 L 735.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="757.5" y="134" class="wave-text">D</text>
+  <path d="M 784.0 118 L 821.0 118 L 825.0 130 L 821.0 142 L 784.0 142 L 780.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="802.5" y="134" class="wave-text">E</text>
+  <path d="M 829.0 118 L 866.0 118 L 870.0 130 L 866.0 142 L 829.0 142 L 825.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="847.5" y="134" class="wave-text">F</text>
+  <path d="M 874.0 118 L 911.0 118 L 915.0 130 L 911.0 142 L 874.0 142 L 870.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="892.5" y="134" class="wave-text">0</text>
+  <path d="M 919.0 118 L 956.0 118 L 960.0 130 L 956.0 142 L 919.0 142 L 915.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="937.5" y="134" class="wave-text">1</text>
+  <path d="M 964.0 118 L 1001.0 118 L 1005.0 130 L 1001.0 142 L 964.0 142 L 960.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="982.5" y="134" class="wave-text">3</text>
+  <path d="M 1009.0 118 L 1046.0 118 L 1050.0 130 L 1046.0 142 L 1009.0 142 L 1005.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="1027.5" y="134" class="wave-text">0</text>
+  <path d="M 1054.0 118 L 1091.0 118 L 1095.0 130 L 1091.0 142 L 1054.0 142 L 1050.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="1072.5" y="134" class="wave-text">1</text>
+  <path d="M 1099.0 118 L 1140.0 118 L 1140.0 142 L 1099.0 142 L 1095.0 130 Z" fill="#c084fc15" stroke="#c084fc" stroke-width="1.8" />
+  <text x="1117.5" y="134" class="wave-text">F</text>
+  <path d="M 150.0 178 L 146.0 178 L 150.0 190 L 146.0 202 L 150.0 202 Z" fill="#38bdf815" stroke="#38bdf8" stroke-width="1.8" />
+  <path d="M 150.0 178 L 866.0 178 L 870.0 190 L 866.0 202 L 150.0 202 Z" fill="#38bdf815" stroke="#38bdf8" stroke-width="1.8" />
+  <text x="510.0" y="194" class="wave-text">2D</text>
+  <path d="M 874.0 178 L 911.0 178 L 915.0 190 L 911.0 202 L 874.0 202 L 870.0 190 Z" fill="#38bdf815" stroke="#38bdf8" stroke-width="1.8" />
+  <text x="892.5" y="194" class="wave-text">FF</text>
+  <path d="M 919.0 178 L 956.0 178 L 960.0 190 L 956.0 202 L 919.0 202 L 915.0 190 Z" fill="#38bdf815" stroke="#38bdf8" stroke-width="1.8" />
+  <text x="937.5" y="194" class="wave-text">0A</text>
+  <path d="M 964.0 178 L 1001.0 178 L 1005.0 190 L 1001.0 202 L 964.0 202 L 960.0 190 Z" fill="#38bdf815" stroke="#38bdf8" stroke-width="1.8" />
+  <text x="982.5" y="194" class="wave-text">00</text>
+  <path d="M 1009.0 178 L 1046.0 178 L 1050.0 190 L 1046.0 202 L 1009.0 202 L 1005.0 190 Z" fill="#38bdf815" stroke="#38bdf8" stroke-width="1.8" />
+  <text x="1027.5" y="194" class="wave-text">7F</text>
+  <path d="M 1054.0 178 L 1091.0 178 L 1095.0 190 L 1091.0 202 L 1054.0 202 L 1050.0 190 Z" fill="#38bdf815" stroke="#38bdf8" stroke-width="1.8" />
+  <text x="1072.5" y="194" class="wave-text">80</text>
+  <path d="M 1099.0 178 L 1140.0 178 L 1140.0 202 L 1099.0 202 L 1095.0 190 Z" fill="#38bdf815" stroke="#38bdf8" stroke-width="1.8" />
+  <text x="1117.5" y="194" class="wave-text">63</text>
+  <path d="M 150.0 238 L 146.0 238 L 150.0 250 L 146.0 262 L 150.0 262 Z" fill="#f472b615" stroke="#f472b6" stroke-width="1.8" />
+  <path d="M 150.0 238 L 866.0 238 L 870.0 250 L 866.0 262 L 150.0 262 Z" fill="#f472b615" stroke="#f472b6" stroke-width="1.8" />
+  <text x="510.0" y="254" class="wave-text">0F</text>
+  <path d="M 874.0 238 L 911.0 238 L 915.0 250 L 911.0 262 L 874.0 262 L 870.0 250 Z" fill="#f472b615" stroke="#f472b6" stroke-width="1.8" />
+  <text x="892.5" y="254" class="wave-text">01</text>
+  <path d="M 919.0 238 L 956.0 238 L 960.0 250 L 956.0 262 L 919.0 262 L 915.0 250 Z" fill="#f472b615" stroke="#f472b6" stroke-width="1.8" />
+  <text x="937.5" y="254" class="wave-text">14</text>
+  <path d="M 964.0 238 L 1001.0 238 L 1005.0 250 L 1001.0 262 L 964.0 262 L 960.0 250 Z" fill="#f472b615" stroke="#f472b6" stroke-width="1.8" />
+  <text x="982.5" y="254" class="wave-text">00</text>
+  <path d="M 1009.0 238 L 1091.0 238 L 1095.0 250 L 1091.0 262 L 1009.0 262 L 1005.0 250 Z" fill="#f472b615" stroke="#f472b6" stroke-width="1.8" />
+  <text x="1050.0" y="254" class="wave-text">01</text>
+  <path d="M 1099.0 238 L 1140.0 238 L 1140.0 262 L 1099.0 262 L 1095.0 250 Z" fill="#f472b615" stroke="#f472b6" stroke-width="1.8" />
+  <text x="1117.5" y="254" class="wave-text">63</text>
+  <path d="M 150.0 298 L 146.0 298 L 150.0 310 L 146.0 322 L 150.0 322 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <path d="M 150.0 298 L 191.0 298 L 195.0 310 L 191.0 322 L 150.0 322 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="172.5" y="314" class="wave-text">3C</text>
+  <path d="M 199.0 298 L 236.0 298 L 240.0 310 L 236.0 322 L 199.0 322 L 195.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="217.5" y="314" class="wave-text">1E</text>
+  <path d="M 244.0 298 L 281.0 298 L 285.0 310 L 281.0 322 L 244.0 322 L 240.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="262.5" y="314" class="wave-text">0D</text>
+  <path d="M 289.0 298 L 326.0 298 L 330.0 310 L 326.0 322 L 289.0 322 L 285.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="307.5" y="314" class="wave-text">2F</text>
+  <path d="M 334.0 298 L 371.0 298 L 375.0 310 L 371.0 322 L 334.0 322 L 330.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="352.5" y="314" class="wave-text">22</text>
+  <path d="M 379.0 298 L 416.0 298 L 420.0 310 L 416.0 322 L 379.0 322 L 375.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="397.5" y="314" class="wave-text">D0</text>
+  <path d="M 424.0 298 L 461.0 298 L 465.0 310 L 461.0 322 L 424.0 322 L 420.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="442.5" y="314" class="wave-text">F2</text>
+  <path d="M 469.0 298 L 506.0 298 L 510.0 310 L 506.0 322 L 469.0 322 L 465.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="487.5" y="314" class="wave-text">DD</text>
+  <path d="M 514.0 298 L 551.0 298 L 555.0 310 L 551.0 322 L 514.0 322 L 510.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="532.5" y="314" class="wave-text">D2</text>
+  <path d="M 559.0 298 L 596.0 298 L 600.0 310 L 596.0 322 L 559.0 322 L 555.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="577.5" y="314" class="wave-text">5A</text>
+  <path d="M 604.0 298 L 641.0 298 L 645.0 310 L 641.0 322 L 604.0 322 L 600.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="622.5" y="314" class="wave-text">16</text>
+  <path d="M 649.0 298 L 686.0 298 L 690.0 310 L 686.0 322 L 649.0 322 L 645.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="667.5" y="314" class="wave-text">5A</text>
+  <path d="M 694.0 298 L 731.0 298 L 735.0 310 L 731.0 322 L 694.0 322 L 690.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="712.5" y="314" class="wave-text">96</text>
+  <path d="M 739.0 298 L 776.0 298 L 780.0 310 L 776.0 322 L 739.0 322 L 735.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="757.5" y="314" class="wave-text">A3</text>
+  <path d="M 784.0 298 L 821.0 298 L 825.0 310 L 821.0 322 L 784.0 322 L 780.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="802.5" y="314" class="wave-text">01</text>
+  <path d="M 829.0 298 L 866.0 298 L 870.0 310 L 866.0 322 L 829.0 322 L 825.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="847.5" y="314" class="wave-text">00</text>
+  <path d="M 874.0 298 L 911.0 298 L 915.0 310 L 911.0 322 L 874.0 322 L 870.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="892.5" y="314" class="wave-text">00</text>
+  <path d="M 919.0 298 L 956.0 298 L 960.0 310 L 956.0 322 L 919.0 322 L 915.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="937.5" y="314" class="wave-text">F6</text>
+  <path d="M 964.0 298 L 1001.0 298 L 1005.0 310 L 1001.0 322 L 964.0 322 L 960.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="982.5" y="314" class="wave-text">00</text>
+  <path d="M 1009.0 298 L 1046.0 298 L 1050.0 310 L 1046.0 322 L 1009.0 322 L 1005.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="1027.5" y="314" class="wave-text">80</text>
+  <path d="M 1054.0 298 L 1091.0 298 L 1095.0 310 L 1091.0 322 L 1054.0 322 L 1050.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="1072.5" y="314" class="wave-text">7F</text>
+  <path d="M 1099.0 298 L 1140.0 298 L 1140.0 322 L 1099.0 322 L 1095.0 310 Z" fill="#34d39915" stroke="#34d399" stroke-width="1.8" />
+  <text x="1117.5" y="314" class="wave-text">01</text>
+  <path d="M 150 402 L 150.0 402 L 870.0 402 L 870.0 378 L 915.0 378 L 960.0 378 L 960.0 402 L 1140.0 402" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" />
+  <path d="M 150 462 L 150.0 462 L 825.0 462 L 825.0 438 L 870.0 438 L 915.0 438 L 915.0 462 L 960.0 462 L 960.0 438 L 1005.0 438 L 1005.0 462 L 1095.0 462 L 1140.0 462" fill="none" stroke="#f87171" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" />
+  <path d="M 150 522 L 150.0 522 L 915.0 522 L 1005.0 522 L 1005.0 498 L 1050.0 498 L 1095.0 498 L 1095.0 522 L 1140.0 522" fill="none" stroke="#fb7185" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" />
+</svg>
