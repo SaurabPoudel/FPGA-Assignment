@@ -74,3 +74,5 @@ The simulation runs for 220 ns in `alu_tb.v`, testing all operations at 10 ns in
    ```bash
    gtkwave alu.vcd
    ```
+
+**Note:** I used AI to generate `generate_waveform.py` which was optional. `waveform.svg` was generated using the python script.
