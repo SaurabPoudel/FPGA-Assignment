@@ -1,5 +1,3 @@
-# 8-Bit Arithmetic Logic Unit (ALU) - Verilog & FPGA Implementation
-# 8-Bit ALU (Arithmetic Logic Unit)
 
 * **Name:** Saurab Poudel
 * **Roll No:** 079BEI036
